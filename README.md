@@ -8,7 +8,7 @@ React Hooks + Typescript
 
 ### 操作步骤
 ```
-1.在官网下载MongoDB最新安装包，安装成功后，在命令行下进入MongoDB\bin目录，输入mongod 执行成功说明安装成功，不用添加到环境变量
+1.在官网下载MongoDB最新安装包，安装成功后，在命令行下进入MongoDB\bin目录，输入mongod 执行成功说明安装成功
 2.在Studio 3T官网下载后安装，可以可视化显示本地MongoDB数据库的数据
 3.两端都先 yarn install 或者 npm install
 4.然后server先执行 yarn dev 或者 npm run dev，连接数据库并启动服务端localhost:3000
