@@ -1,0 +1,59 @@
+.notesPage {
+  border-top: 1px solid #DDDDDD;
+
+  .right {
+    float: right;
+    line-height: 40px;
+    margin: 0 10px;
+  }
+
+  .emptyNotes {
+    text-align: center;
+    display: block;
+    margin: 50px 0;
+  }
+
+  .editorContainer {
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+  .uncollapsed {
+    :global(.for-container) {
+      width: calc(100vw - 300px);
+      left: 290px;
+      height: calc(100vh - 3.85rem - 2px - 4rem - 12px) !important;
+      top: calc(3.85rem + 2px + 4rem + 5px); //顶部高度+2像素边+工具栏+top margin空白
+      position: absolute;
+    }
+  }
+
+  .collapsed {
+    :global(.for-container) {
+      width: calc(100vw - 20px);
+      left: 10px;
+      height: calc(100vh - 3.85rem - 2px - 4rem - 12px) !important;
+      top: calc(3.85rem + 2px + 4rem + 5px); //顶部高度+2像素边+工具栏+top margin空白
+      position: absolute;
+    }
+  }
+
+  .menu {
+    width: 280px;
+    display: inline-block;
+
+    .menuUl {
+      height: calc(100vh - 3.85rem - 1px - 4rem);
+    }
+  }
+
+  .topBar {
+    height: 4rem;
+    padding: 1rem;
+    border-bottom: 1px solid #DDDDDD;
+
+    .btn:not(:first-child) {
+      margin: 0 0 0 1rem;
+    }
+  }
+}

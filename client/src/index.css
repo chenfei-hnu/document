@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button.tag-pill.tag-default {
+  border: none;
+}
+
+button.tag-pill.tag-default:hover {
+  background-color: #687077;
+}
+
+.model-preview {
+  width: 16%;
+  margin: 3% 2%;
+  display: inline-block;
+}
+
+.model-list {
+  background-color: #ECECEC;
+}
+
+.preview-link .ant-card-meta-title {
+  line-height: 5vh;
+}
+
+.preview-link .ant-card-meta-description {
+  height: 8vh;
+}
+
+.pageContainer {
+  text-align: center;
+  border-top: 1px solid #c2c1c1;
+}
+
+.navbar-nav .nav-item {
+  line-height: 2rem;
+}
+
+.home-page .banner {
+  background: #607D8B;
+}
+
+.navbar {
+  height: 3.85rem;
+}
+
+.ant-menu-inline .ant-menu-item:first-child {
+  margin-top: 0px;
+}
+
+.ant-menu-inline-collapsed {
+  width: 0;
+}
+
+.ant-menu-inline-collapsed .ant-menu-item {
+  padding: 0 !important;
+}
+
+.for-editor-preview {
+  border-left: 1px solid #DDDDDD;
+}
+
+.ant-card-actions {
+  visibility: hidden;
+}
+
+.model-preview:hover .ant-card-actions {
+  visibility: visible;
+}
+
+.ant-menu-inline-collapsed {
+  display: none;
+}
